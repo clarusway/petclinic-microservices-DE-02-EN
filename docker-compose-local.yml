@@ -1,0 +1,10 @@
+version: '2'
+services:
+  config-service:
+    image: petclinic-config-server:dev
+    container_name: config-server
+    mem_limit: 512M
+    ports:
+      - "8888:8888"
+
+  
