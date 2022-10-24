@@ -7,15 +7,15 @@ module "iam" {
 }
 
 variable "sec-gr-mutual" {
-  default = "petclinic-k8s-mutual-sec-group"
+  default = "james-petclinic-k8s-mutual-sec-group"
 }
 
 variable "sec-gr-k8s-master" {
-  default = "petclinic-k8s-master-sec-group"
+  default = "james-petclinic-k8s-master-sec-group"
 }
 
 variable "sec-gr-k8s-worker" {
-  default = "petclinic-k8s-worker-sec-group"
+  default = "james-petclinic-k8s-worker-sec-group"
 }
 
 data "aws_vpc" "name" {
